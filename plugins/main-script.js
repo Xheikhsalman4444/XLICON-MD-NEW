@@ -35,7 +35,7 @@ MAKE SURE TO JOIN OUR GROUP : https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk
           }}}}}}, {})
     } else {
       // Handle the case where the API request fails
-      await conn.reply(m.chat, 'Unable to fetch repository information.', m);
+      await conn.reply(m.chat, 'Unable to fetch the Xlicon-v2 repository information.', m);
     }
   } catch (error) {
     console.error(error);
