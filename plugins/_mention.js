@@ -8,8 +8,8 @@
 
 let handler = m => m
 handler.all = async function (m, conn) {
-    var vn = "https://raw.githubusercontent.com/Guru322/GURU-BOT/main/Assets/mp3/Guru1.mp3"
-    let url = "https://github.com/Guru322/GURU-BOT"
+    var vn = "./Assets/ALIVE.mp3"
+    let url = "https://github.com/abrahamdw882"
     let murl = "https://www.instagram.com/asli_guru_2k23"
     let hash = global.botname
     let img = "https://i.imgur.com/OtwLwJ9.jpg"
