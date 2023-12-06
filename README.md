@@ -51,7 +51,7 @@ GURU-BOT- Simple Multi Device whatsapp bot.
 
 3. Now Deploy
     <br>
-<p align="center"><a href="https://web-guru-bot.vercel.app"> <img src="https://img.shields.io/badge/Heroku%20Deploy-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fguru-bot-deploy.vercel.app%2F&template=https%3A%2F%2Fgithub.com%2FXheikhsalman4444%2FXLICON-MD-NEW"> <img src="https://img.shields.io/badge/Heroku%20Deploy-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 #### DEPLOY TO RAILWAY
 
