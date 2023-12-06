@@ -17,7 +17,7 @@ import {
   before: `
   「 ${botname} あU+2069 」\n
   *%ucpn*
- ⍟────────────────⍟
+⍟────────────────⍟
 *REMEMBER THIS BOT IS FOR*
 *EDUCATIONAL PERPOSES*
 ⍟────────────────⍟
