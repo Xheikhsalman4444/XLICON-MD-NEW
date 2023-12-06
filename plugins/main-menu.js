@@ -64,7 +64,7 @@ import {
  `.trimStart(),
  header: "🔰〘 *_%category_*  〙🔰",
  body: "⬡▸ %cmd %isPremium %islimit",
- footer: " ╰───────────────⍟",
+ footer: " ╰───────────────▸",
  after: "\n%me",
  }
  let handler = async (m, {
