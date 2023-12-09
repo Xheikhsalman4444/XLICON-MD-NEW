@@ -67,7 +67,7 @@ global.thumb = fs.readFileSync('./XLICON.jpg')
 global.wait = '*🕣 _XLICON IS LODIND..._*\n*▰▰▰▱▱▱▱▱⭐*'
 global.rwait = '⌛'
 global.dmoji = '🤭'
-global.done = '✅'
+global.done = '✔️'
 global.error = '❌' 
 global.xmoji = '🔥' 
 
