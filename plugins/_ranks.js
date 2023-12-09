@@ -4,7 +4,7 @@ global.rpg = {
     if (isNaN(level)) return { name: "", level: "" };
 
     const role = [
-      { name: "Tadpole", level: 0 },
+      { name: "Beginner", level: 0 },
       { name: "Lobster Larva", level: 5 }, //»»————⍟——««\n
       { name: "Octopus Apprentice", level: 10 },
       { name: "Siren's Apprentice", level: 15 },
