@@ -99,6 +99,7 @@
         "hispamemes": "^1.0.7",
         "didyoumean": "^1.2.2",
         "fg-ig": "^0.0.2",
+    "mumaker":"2.0.0",
         "api-dylux": "^1.6.9",
         "@vitalets/google-translate-api": "^9.2.0",
         "yargs": "^17.6.0",
