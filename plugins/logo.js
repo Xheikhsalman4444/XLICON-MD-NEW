@@ -5,6 +5,8 @@ import maker from 'mumaker'
 let logos = {
     "deepsea": "https://textpro.me/create-3d-deep-sea-metal-text-effect-online-1053.html",
     "horror": "https://textpro.me/horror-blood-text-effect-online-883.html",
+    "pink":"https://textpro.me/create-blackpink-logo-style-online-1001.html",
+    "candy":"https://textpro.me/create-christmas-candy-cane-text-effect-1056.html",
 }
 
 
@@ -15,9 +17,9 @@ let handler = async (m, { conn, usedPrefix, command ,text}) => {
     let anu = await maker.textpro(logos[command], text)
     conn.sendMessage(m.chat, { image: { url: anu.image } })
 }
-handler.help = ['deepsea', 'horror',]
+handler.help = ['deepsea', 'horror','pink','candy']
 handler.tags = ['logo']
-handler.command = /^(deepsea|horror)$/i
+handler.command = /^(deepsea|horror|pink|candy)$/i
 export default handler
 
 
