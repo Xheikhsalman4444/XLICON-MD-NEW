@@ -41,7 +41,7 @@ let str = ` *☑️ XLICON -V2 BOT☑️*
 
 ╭━⊱✓WELCOME TO MENU-3✓
 │
-│🕋✫ - 「${usedPrefix}groups
+|🏘️✫ - 「${usedPrefix}groups
 │📚✫ - 「${usedPrefix}𝘚𝘵𝘶𝘥𝘺𝘮𝘦𝘯𝘶
 │🛡️✫ - 「${usedPrefix}𝘖𝘸𝘯𝘦𝘳𝘮𝘦𝘯𝘶
 │💌✫ - 「${usedPrefix}𝘉𝘰𝘵𝘮𝘦𝘯𝘶 
@@ -52,7 +52,7 @@ let str = ` *☑️ XLICON -V2 BOT☑️*
 │🎉✫ - 「${usedPrefix}𝘍𝘶𝘯𝘮𝘦𝘯𝘶 
 │🎮✫ - 「${usedPrefix}𝘎𝘢𝘮𝘦𝘮𝘦𝘯𝘶
 │🎩✫ - 「${usedPrefix}𝘓𝘰𝘨𝘰𝘮𝘦𝘯𝘶
-│ *${usedPrefix}Mᴇɴᴜ2 ғᴏʀ ᴄᴏᴍᴍᴀɴᴅs ʟɪsᴛ*
+│ *${usedPrefix}list ғᴏʀ ᴄᴏᴍᴍᴀɴᴅs ʟɪsᴛ*
 │
 │ *${greeting}*
     *MADE BY XLICON TEAM*
