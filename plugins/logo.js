@@ -12,7 +12,9 @@ let logos = {
 
 let handler = async (m, { conn, usedPrefix, command ,text}) => {
 
-            if(!text) return citel.reply(`Use ${usedPrefix+command} Suhail Tech.`)
+
+
+            if(!text) return await conn.sendMessage(m.chat, { text : `Use ${usedPrefix+command} Suhail Tech.`})
             let anu = await maker.textpro(logos[command], text)
         try{
             conn.sendMessage(m.chat, { image: { url: anu.image } })
