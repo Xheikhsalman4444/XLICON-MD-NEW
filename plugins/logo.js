@@ -10,6 +10,9 @@ let logos = {
     "christmas":"https://textpro.me/christmas-tree-text-effect-online-free-1057.html",
     "luxury":"https://textpro.me/3d-luxury-gold-text-effect-online-1003.html",
     "sky":"https://textpro.me/create-a-cloud-text-effect-on-the-sky-online-1004.html",
+    "steel":"https://textpro.me/steel-text-effect-online-921.html",
+    "glue":"https://textpro.me/create-3d-glue-text-effect-with-realistic-style-986.html",
+    "fabric":"https://textpro.me/fabric-text-effect-online-964.html",
 }
 
 
@@ -20,9 +23,9 @@ let handler = async (m, { conn, usedPrefix, command ,text}) => {
     let anu = await maker.textpro(logos[command], text)
     conn.sendMessage(m.chat, { image: { url: anu.image } })
 }
-handler.help = ['deepsea', 'horror','pink','candy','christmas','luxury','sky',]
+handler.help = ['deepsea', 'horror','pink','candy','christmas','luxury','sky','steel','glue','fabric',]
 handler.tags = ['logo']
-handler.command = /^(deepsea|horror|pink|candy|christmas|luxury|sky)$/i
+handler.command = /^(deepsea|horror|pink|candy|christmas|luxury|sky|steel|glue|fabric)$/i
 export default handler
 
 
