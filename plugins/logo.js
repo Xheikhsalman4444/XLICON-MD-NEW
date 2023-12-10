@@ -13,6 +13,7 @@ let logos = {
     "steel":"https://textpro.me/steel-text-effect-online-921.html",
     "glue":"https://textpro.me/create-3d-glue-text-effect-with-realistic-style-986.html",
     "fabric":"https://textpro.me/fabric-text-effect-online-964.html",
+    "transformer":"https://textpro.me/create-a-transformer-text-effect-online-1035.html",
 }
 
 
@@ -23,9 +24,9 @@ let handler = async (m, { conn, usedPrefix, command ,text}) => {
     let anu = await maker.textpro(logos[command], text)
     conn.sendMessage(m.chat, { image: { url: anu.image } })
 }
-handler.help = ['deepsea', 'horror','pink','candy','christmas','luxury','sky','steel','glue','fabric',]
+handler.help = ['deepsea', 'horror','pink','candy','christmas','luxury','sky','steel','glue','fabric','transformer',]
 handler.tags = ['logo']
-handler.command = /^(deepsea|horror|pink|candy|christmas|luxury|sky|steel|glue|fabric)$/i
+handler.command = /^(deepsea|horror|pink|candy|christmas|luxury|sky|steel|glue|fabric|transformer)$/i
 export default handler
 
 
