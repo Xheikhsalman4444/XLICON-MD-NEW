@@ -46,9 +46,9 @@ let str = ` *☑️ XLICON -V2 BOT☑️*
 │✫ - 「${usedPrefix}Christmas 
 │✫ - 「${usedPrefix}sky
 │✫ - 「${usedPrefix}luxury 
-│✫ - 「${usedPrefix}car
+│✫ - 「${usedPrefix}neon
 │✫ - 「${usedPrefix}title
-│✫ - 「${usedPrefix}no
+│✫ - 「${usedPrefix}joker
 │✫ - 「${usedPrefix}no 
 │✫ - 「${usedPrefix}no
 │✫ - 「${usedPrefix}no
