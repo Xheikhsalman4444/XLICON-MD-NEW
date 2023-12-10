@@ -13,7 +13,7 @@ let logos = {
 
 
 let handler = async (m, { conn, usedPrefix, command ,text}) => {
-    if(!text) return await conn.sendMessage(m.chat, { text : `Use ${usedPrefix+command} Suhail Tech.`})
+    if(!text) return await conn.sendMessage(m.chat, { text : `Use ${usedPrefix+command} Ab Dev.`})
     let anu = await maker.textpro(logos[command], text)
     conn.sendMessage(m.chat, { image: { url: anu.image } })
 }
