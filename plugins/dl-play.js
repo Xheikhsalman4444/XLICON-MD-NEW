@@ -9,7 +9,7 @@ import axios from 'axios';
 const streamPipeline = promisify(pipeline);
 
 let handler = async (m, { conn, command, text, usedPrefix }) => {
-  if (!text) throw `Use example ${usedPrefix}${command} naruto blue bird`;
+  if (!text) throw `Use example ${usedPrefix}${command} Jesus take the the wheel`;
   await m.react(rwait);
 
   try {
@@ -67,7 +67,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
           mediaType: 2,
           mediaUrl: url,
           title: title,
-          body: 'HERE IS YOUR SONG',
+          body: 'HERE IS YOUR SONG MADE BY XLICON-v2',
           sourceUrl: url,
           thumbnail: await (await conn.getFile(thumbnail)).data
         }
