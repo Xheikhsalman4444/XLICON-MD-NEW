@@ -44,8 +44,8 @@ let str = ` *☑️ XLICON -V2 BOT☑️*
 |🏘️✫ - 「${usedPrefix}deepsea
 │✫ - 「${usedPrefix}candy
 │✫ - 「${usedPrefix}Christmas 
-│✫ - 「${usedPrefix} write 
-│✫ - 「${usedPrefix}cloud
+│✫ - 「${usedPrefix}sky
+│✫ - 「${usedPrefix}luxury 
 │✫ - 「${usedPrefix}car
 │✫ - 「${usedPrefix}title
 │✫ - 「${usedPrefix}no
