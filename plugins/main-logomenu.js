@@ -39,7 +39,7 @@ let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = ` *☑️ XLICON -V2 BOT☑️*
 
 
-╭━⊱🔰 *WELCOME TO LOGO1* 🔰
+╭━⊱ *WELCOME TO LOGO1* 
 │
 |🔰 - 「${usedPrefix}deepsea
 |🔰 - 「${usedPrefix}glue
