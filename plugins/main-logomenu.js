@@ -39,23 +39,25 @@ let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = ` *☑️ XLICON -V2 BOT☑️*
 
 
-╭━⊱✓WELCOME TO logo1✓
+╭━⊱🔰 *WELCOME TO LOGO1* 🔰
 │
-|🏘️✫ - 「${usedPrefix}deepsea
-│✫ - 「${usedPrefix}candy
-│✫ - 「${usedPrefix}Christmas 
-│✫ - 「${usedPrefix}sky
-│✫ - 「${usedPrefix}luxury 
-│✫ - 「${usedPrefix}neon
-│✫ - 「${usedPrefix}title
-│✫ - 「${usedPrefix}joker
-│✫ - 「${usedPrefix}no 
-│✫ - 「${usedPrefix}no
-│✫ - 「${usedPrefix}no
+|🔰 - 「${usedPrefix}deepsea
+|🔰 - 「${usedPrefix}glue
+|🔰 - 「${usedPrefix} horror 
+│🔰 - 「${usedPrefix}candy
+│🔰 - 「${usedPrefix}Christmas 
+│🔰 - 「${usedPrefix}sky
+│🔰 - 「${usedPrefix}luxury 
+│🔰 - 「${usedPrefix}neon
+│🔰 - 「${usedPrefix}toxic
+│🔰 - 「${usedPrefix}transformer
+│🔰 - 「${usedPrefix}thunder 
+│🔰 - 「${usedPrefix}ancient
+│🔰 - 「${usedPrefix}steel
 │ *${usedPrefix}logo ғᴏʀ logo ᴄᴏᴍᴍᴀɴᴅs 
 │
 │ *${greeting}*
-    *MADE BY XLICON TEAM*
+|   *MADE BY XLICON TEAM*
 ╰━━━━━━━━━━━━━━━━━━━━━━━━╯
 📚 *_Quote of the day: ${quote}_* 📚
 `
