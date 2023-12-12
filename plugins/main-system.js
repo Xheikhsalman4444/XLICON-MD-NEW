@@ -46,10 +46,10 @@ if (!(who in global.db.data.users)) throw `✳️ The user is not found in my da
 let user = global.db.data.users[who]
   
 let infobt = `
-⭐ *I'm XLICON-V2.* A whatsApp chuddy buddy bot with rich features, Created By *SALMAN AMAD and Abraham Dwamena*. 🔰
+🔰 *I'm XLICON-V2.* *A whatsApp chuddy buddy bot with rich features* *Created By *SALMAN AMAD and Abraham Dwamena*. 🔰
 
-  *❲❒❳ Stars:* 295 stars
-  *❲❒❳ Forks:* 2020 forks
+  *❲❒❳ Stars:* 💻100 stars
+  *❲❒❳ Forks:* 🔰2 forks
   *❲❒❳ Auther:* Salman amad and Abraham Dwamena 
   *❲❒❳ Create:* 2023-03-24T17:14:04Z
   *❲❒❳ Repo:* _not yet out
@@ -57,9 +57,7 @@ let infobt = `
 
   *❲❒❳ Visit For Tutorial* _
 Wait
-
-
-© *Created ʙʏ XLICON Team* ©
+🔰 *Created ʙʏ XLICON TEAM* 🔰
 
 
  *🕣 S E R V E R*
