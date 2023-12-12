@@ -46,30 +46,20 @@ if (!(who in global.db.data.users)) throw `✳️ The user is not found in my da
 let user = global.db.data.users[who]
   
 let infobt = `
-⭐ *INFO XLICON-V2 BOT* ⭐
+⭐ *I'm XLICON-V2.* A whatsApp chuddy buddy bot with rich features, Created By *SALMAN AMAD and Abraham Dwamena*. 🔰
 
-  ╭───•✧✧•───╮
-  *≡*. 
-│ ➫「 *Developer* 」
-│ ➫ *Name    :* Salman Ahmad & Abraham Dwamena
-│ ➫ *Place   :* Pakistan & Ghana
-│ ➫ *Gender  :*  ᴍᴀʟᴇ
-│ ➫ *Age     :* _18_ and _19_
-│ ➫ *Phone   :* wa.me/923184070915 & wa.me/+233533763772
-│ ➫ *YouTube :* youtube.com/@s4salmanyt 
-│ ➫ *GitHub  :* github.com/salmanytofficial
-│ ➫ *IG ID   :* instagram.com/ahmmikun
-│ ➫ *Channel* :https://whatsapp.com/channel/0029VaE8GbCDzgTILE7OtC3e
-│ ➫ *Status  :* Debugging
- Code._
-© XLICON-V2 BY Salman Ahmad and AB-Dev
+  *❲❒❳ Stars:* 295 stars
+  *❲❒❳ Forks:* 2020 forks
+  *❲❒❳ Auther:* Salman amad and Abraham Dwamena 
+  *❲❒❳ Create:* 2023-03-24T17:14:04Z
+  *❲❒❳ Repo:* _not yet out
+  *❲❒❳ Scan:* _wait
 
-⚡ *STATE* ⚡
-➫ *${groupsIn.length}* GROUP CHATS
-➫  *${groupsIn.length}* united groups
-➫  *${groupsIn.length - groupsIn.length}* abandoned groups
-➫  *${chats.length - groupsIn.length}* private chats
-➫  *${chats.length}* Total Chats
+  *❲❒❳ Visit For Tutorial* _
+Wait
+
+
+© *Created ʙʏ XLICON Team* ©
 
 
  *🕣 S E R V E R*
