@@ -546,8 +546,8 @@ export async function participantsUpdate({
                   ppgp = await this.profilePictureUrl(id, 'image');
                 } catch (error) {
                   console.error(`Error retrieving profile picture: ${error}`);
-                  pp = 'https://i.imgur.com/8B4jwGq.jpeg'; // Assign default image URL
-                  ppgp = 'https://i.imgur.com/8B4jwGq.jpeg'; // Assign default image URL
+                  pp = 'https://telegra.ph/file/75ca70aa35adca1a5db1e.jpg'; // Assign default image URL
+                  ppgp = 'https://telegra.ph/file/75ca70aa35adca1a5db1e.jpg'; // Assign default image URL
                 } finally {
                   let text = (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user')
                     .replace('@group', await this.getName(id))
@@ -564,7 +564,7 @@ export async function participantsUpdate({
                   )}&memberCount=${encodeURIComponent(
                     nthMember.toString()
                   )}&avatar=${encodeURIComponent(pp)}&background=${encodeURIComponent(
-                    'https://i.imgur.com/XuETVnQ.jpg'
+                    'https://telegra.ph/file/75ca70aa35adca1a5db1e.jpg'
                   )}`;
           
                   try {
@@ -601,8 +601,8 @@ export async function participantsUpdate({
                   ppgp = await this.profilePictureUrl(id, 'image');
                 } catch (error) {
                   console.error(`Error retrieving profile picture: ${error}`);
-                  pp = 'https://i.imgur.com/XuETVnQ.jpg'; // Assign default image URL
-                  ppgp = 'https://i.imgur.com/XuETVnQ.jpg'; // Assign default image URL
+                  pp = 'https://telegra.ph/file/75ca70aa35adca1a5db1e.jpg'; // Assign default image URL
+                  ppgp = 'https://telegra.ph/file/75ca70aa35adca1a5db1e.jpg'; // Assign default image URL
                 } finally {
                   let text = (chat.sBye || this.bye || conn.bye || 'HELLO, @user')
                     .replace('@user', '@' + user.split('@')[0]);
@@ -617,7 +617,7 @@ export async function participantsUpdate({
                   )}&memberCount=${encodeURIComponent(
                     nthMember.toString()
                   )}&avatar=${encodeURIComponent(pp)}&background=${encodeURIComponent(
-                    'https://i.imgur.com/XuETVnQ.jpg'
+                    'https://telegra.ph/file/75ca70aa35adca1a5db1e.jpg'
                   )}`;
           
                   try {
