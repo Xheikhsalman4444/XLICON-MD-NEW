@@ -80,7 +80,7 @@ let infobt = `
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
 `
 
-conn.sendMessage(m.chat,{video : {url :"https://i.imgur.com/JbMJS4T.mp4",}, caption:infobt, },{quoted:m})
+conn.sendMessage(m.chat,{video : {url :"https://i.imgur.com/JbMJS4T.mp4",}, caption:infobt,gifPlayback:true },{quoted:m})
 
 
 }
