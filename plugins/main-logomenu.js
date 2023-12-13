@@ -40,25 +40,25 @@ let str = ` *☑️ XLICON -V2 BOT☑️*
 
 
 ╭━⊱ *WELCOME TO LOGO1* 
-│_______________________🔰
-|🔰 - 「${usedPrefix}deepsea
-|🔰 - 「${usedPrefix}glue
-|🔰 - 「${usedPrefix} horror 
-|🔰 - 「${usedPrefix}candy
-|🔰 - 「${usedPrefix}Christmas 
-|🔰 - 「${usedPrefix}sky
-|🔰 - 「${usedPrefix}luxury 
-|🔰 - 「${usedPrefix}neon
-|🔰 - 「${usedPrefix}toxic
-|🔰 - 「${usedPrefix}transformer
-│🔰 - 「${usedPrefix}thunder 
-│🔰 - 「${usedPrefix}ancient
-|🔰 - 「${usedPrefix}steel
-| *${usedPrefix}logo ғᴏʀ logo ᴄᴏᴍᴍᴀɴᴅs 
-|____________________________🔰
-| Please *${greeting}* 
-|____________________________🔰
-|   *MADE BY XLICON TEAM*
+_________________________🔰
+⬡▸ - 「${usedPrefix}deepsea
+⬡▸ - 「${usedPrefix}glue
+⬡▸ - 「${usedPrefix} horror 
+⬡▸ - 「${usedPrefix}candy
+⬡▸ - 「${usedPrefix}Christmas 
+⬡▸ - 「${usedPrefix}sky
+⬡▸ - 「${usedPrefix}luxury 
+⬡▸ - 「${usedPrefix}neon
+⬡▸ - 「${usedPrefix}toxic
+⬡▸ - 「${usedPrefix}transformer
+⬡▸ - 「${usedPrefix}thunder 
+⬡▸ - 「${usedPrefix}ancient
+⬡▸ - 「${usedPrefix}steel
+⬡▸ *${usedPrefix}logo ғᴏʀ logo ᴄᴏᴍᴍᴀɴᴅs 
+__________________________🔰
+⬡▸ Please *${greeting}* 
+|_________________________🔰
+   *MADE BY XLICON TEAM*
 ╰━━━━━━━━━━━━━━━━━━━━━━━━╯
 📚 *_Quote of the day: ${quote}_* 📚
 `
