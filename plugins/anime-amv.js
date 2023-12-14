@@ -13,7 +13,7 @@ let handler = async (m, {
     if (text == '1') {
         try {
             let resl = await animeVideo()
-            let cap = `Nih Kak Videonya`
+            let cap = `here is your video`
             await conn.sendFile(m.chat, resl.source, "", cap, m)
         } catch (e) {
             await m.reply(eror)
