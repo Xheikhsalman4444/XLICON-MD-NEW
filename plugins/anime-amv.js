@@ -9,7 +9,7 @@ let handler = async (m, {
     command
 }) => {
     await m.reply(wait)
-    if (!text) return m.reply('Masukan Nomornya Kak\nContoh: .amv 1')
+    if (!text) return m.reply('Enter your number\nExample: .amv 1')
     if (text == '1') {
         try {
             let resl = await animeVideo()
@@ -22,7 +22,7 @@ let handler = async (m, {
     if (text == '2') {
         try {
             let resl = await animeVideo2()
-            let cap = `Nih Kak Videonya`
+            let cap = `Script video made by XLICON `
             await conn.sendFile(m.chat, resl.source, "", cap, m)
         } catch (e) {
             await m.reply(eror)
