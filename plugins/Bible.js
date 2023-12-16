@@ -12,7 +12,7 @@ let bibleChapterHandler = async (m, { conn }) => {
       throw new Error(`Please specify the chapter number or name. Example: -bible john 3:16`);
     }
 
-    // Encode the chapterInput to handle special characters
+/    // Encode the chapterInput to handle special characters
     chapterInput = encodeURIComponent(chapterInput);
 
     // Make an API request to fetch the chapter information.
@@ -46,7 +46,7 @@ ${translatedChapterHindi.text}`;
 };
 
 bibleChapterHandler.help = ['bible [chapter_number|chapter_name]'];
-bibleChapterHandler.tags = ['religion'];
-bibleChapterHandler.command = ['bible', 'chapter'];
+bibleChapterHandler.tags = ['relationship'];
+bibleChapterHandler.command = ['bible', 'chapter''jesus',];
 
 export default bibleChapterHandler;
