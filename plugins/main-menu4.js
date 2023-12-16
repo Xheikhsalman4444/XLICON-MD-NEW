@@ -14,33 +14,33 @@ import {
   
    let groupmenu = `
    ✦ ───『 *group* 』─── ⚝
-  ◈ .getbio <@tag/reply>  Ⓛ
-  ◈ .animequote
-  ◈ .Setdesc <text>
-  ◈ .setname <text>
-  ◈ .add
-  ◈ .delete
-  ◈ .delwarn @user
-  ◈ .demote (@tag)
-  ◈ .infogp
-  ◈ .hidetag
-  ◈ .invite <917xxx>
-  ◈ .kick @user
-  ◈ .link
-  ◈ .poll question|option|option
-  ◈ .profile
-  ◈ .promote
-  ◈ .resetlink
-  ◈ .setbye <text>
-  ◈ .group *open/close*
-  ◈ .setwelcome <text>
-  ◈ .simulate <event> @user
-  ◈ .staff
-  ◈ .tagall
-  ◈ .totag
-  ◈ .warn @user
-  ◈ .warns
-  ◈ .main
+  ➫ .getbio <@tag/reply>  Ⓛ
+  ➫ .animequote
+  ➫ .Setdesc <text>
+  ➫ .setname <text>
+  ➫ .add
+  ➫ .delete
+  ➫ .delwarn @user
+  ➫ .demote (@tag)
+  ➫ .infogp
+  ➫ .hidetag
+  ➫ .invite <917xxx>
+  ➫ .kick @user
+  ➫ .link
+  ➫ .poll question|option|option
+  ➫ .profile
+  ➫ .promote
+  ➫ .resetlink
+  ➫ .setbye <text>
+  ➫ .group *open/close*
+  ➫ .setwelcome <text>
+  ➫ .simulate <event> @user
+  ➫ .staff
+  ➫ .tagall
+  ➫ .totag
+  ➫ .warn @user
+  ➫ .warns
+  ➫ .main
   ╰──────────⳹`
   
   let ownermenu = `
@@ -547,23 +547,23 @@ import {
     ⛥ *Xp:* ${exp}
     ╰──────────⳹
    
-    乂───『 *I N F O*』───乂
-    ⛥ *Bot Name:* ${botname}
-    ⛥ *Mode:* ${mode}
-    ⛥ *Platform:* ${platform}
-    ⛥ *Type:* NodeJs
-    ⛥ *Baileys:* Multi Device
-    ⛥ *Prefix:* [ *${usedPrefix}* ]
-    ⛥ *Uptime:* ${muptime}
-    ⛥ *Database:*  ${totalreg}
+    🌟───『 *I N F O*』───🌟
+    ➫ *Bot Name:* ${botname}
+    ➫ *Mode:* ${mode}
+    ➫ *Platform:* ${platform}
+    ➫ *Type:* NodeJs
+    ➫ *Baileys:* Multi Device
+    ➫ *Prefix:* [ *${usedPrefix}* ]
+    ➫ *Uptime:* ${muptime}
+    ➫ *Database:*  ${totalreg}
     ╰──────────⳹
     
-    乂───『 *I N F O  C M D*』───乂 
+    🌟───『 *I N F O  C M D*』───🌟 
     │ *${totalfeatures}* Commands
     ╰──────────⳹
      ${readMore}
 
-    乂───『 *INFO*』───乂 
+  🌟───『 *INFO*』───🌟 
   │*Reply with the number*
   │ to get respected Menu*
   ╰───────⳹
