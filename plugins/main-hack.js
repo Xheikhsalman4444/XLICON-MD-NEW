@@ -39,7 +39,7 @@ await sleep(1000)
 
     return await m.chat('BACKLOGS CLEARED');
 
-} )
+} 
 handler.help = ['hacki']
 handler.tags = ['main']
 handler.command = ['hacki', 'xhack'] 
