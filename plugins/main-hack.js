@@ -40,9 +40,6 @@ await sleep(1000)
     return await m.send('BACKLOGS CLEARED');
 
 }
-
-)
-
 handler.help = ['hacki']
 handler.tags = ['main']
 handler.command = ['hacki', 'xhack'] 
