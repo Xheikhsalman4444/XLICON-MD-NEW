@@ -7,7 +7,7 @@ const {
     Config ,
     sleep,
     getBuffer, 
-     } = require('../lib')
+     } = require('./lib')
 
   let handler = async (m, { conn, command, text, usedPrefix }) => {
   try{
