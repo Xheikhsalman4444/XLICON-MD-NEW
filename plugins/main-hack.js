@@ -43,8 +43,8 @@ await sleep(1000)
 
 )
 
-handler.help = ['hack']
+handler.help = ['hacki']
 handler.tags = ['main']
-handler.command = ['hack', 'xhack'] 
+handler.command = ['hacki', 'xhack'] 
 
 export default handler
