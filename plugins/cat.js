@@ -20,4 +20,4 @@ handler.help = ['cat']
 handler.tags = ['logo']
 handler.command = ['cat'] 
 
-export default handler￼Enter
+export default handler
