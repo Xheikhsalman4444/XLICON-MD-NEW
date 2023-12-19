@@ -1,7 +1,7 @@
 import { exec } from 'child_process'
 import speed from 'performance-now'
 
-let handler = async(m) => {    
+let handler = async (m, { conn, command, text, usedPrefix }) => {    
 await m.send("Injecting Malware")   
 await sleep(2000)    
 await m.send(" █ 10%")    
