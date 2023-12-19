@@ -9,7 +9,7 @@ const {
     getBuffer, 
      } = require('../lib')
 
-  async(m)=>{
+  let handler = async (m, { conn, command, text, usedPrefix }) => {
   try{
     await m.reply('https://cataas.com/cat',{caption:"*meyaoooooooooooooon!*"},"img",m)
   }catch(e){ m.error(`${e}\n\nCommand: cat`,e,false)}
