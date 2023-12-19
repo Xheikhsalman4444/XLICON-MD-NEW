@@ -19,7 +19,7 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
     }
     await displayLoadingScreen(conn, m.chat)
     conn.sendPresenceUpdate('composing', m.chat);
-    let emsg = await conn.sendMessage(m.chat, {text: 'Thinking...'})
+    let emsg = await conn.sendMessage(m.chat, {text: 'Hacking you...'})
     const prompt = encodeURIComponent(text);
 
     const response = await fetch(endpoint + prompt);
@@ -41,7 +41,7 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
       }, {})
   } catch (error) {
     console.error('Error:', error);
-    m.reply(`🔥XLICON TEAM.`);
+    m.reply(`YOU HAVE BEEN HACKED BY XLICON TEAM.`);
   }
 };
 handler.help = ['ping2']
