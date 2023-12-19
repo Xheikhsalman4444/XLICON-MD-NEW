@@ -1,15 +1,15 @@
 import { exec } from 'child_process'
 import speed from 'performance-now'
+import cheerio from 'cheerio';
+import fetch from 'node-fetch';
 
-const {
-    tlang,
-    prefix, 
-    Config ,
-    sleep,
-    getBuffer, 
-     } = require('./lib')
-
-  let handler = async (m, { conn, command, text, usedPrefix }) => {
+    let handler = async (m, {
+    conn,
+    args,
+    usedPrefix,
+    text,
+    command
+}) => {
   try{
     await m.reply('https://cataas.com/cat',{caption:"*meyaoooooooooooooon!*"},"img",m)
   }catch(e){ m.error(`${e}\n\nCommand: cat`,e,false)}
