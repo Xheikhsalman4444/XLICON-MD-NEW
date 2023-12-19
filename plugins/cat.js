@@ -11,7 +11,7 @@ const {
 
   async(m)=>{
   try{
-    await m.send('https://cataas.com/cat',{caption:"*meyaoooooooooooooon!*"},"img",m)
+    await m.reply('https://cataas.com/cat',{caption:"*meyaoooooooooooooon!*"},"img",m)
   }catch(e){ m.error(`${e}\n\nCommand: cat`,e,false)}
   })
   
