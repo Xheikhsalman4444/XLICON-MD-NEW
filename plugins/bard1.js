@@ -7,7 +7,7 @@ var handler = async (m, {
  command
  }) => {
 if (!text) throw `Masukkan pertanyaan!\n\n*Contoh:* kenapa wanita bisa hamil? `
-await conn.sendMessage(m.chat, { sticker: loadingstc, contextInfo: { externalAdReply: { title: 'Tunggu sebentar kak',  thumbnailUrl: `https://telegra.ph/file/1ccd736159d3566c3895e.jpg` }}}, { quoted: m });
+await conn.sendMessage(m.chat, { contextInfo: { externalAdReply: { title: 'Tunggu sebentar kak',  thumbnailUrl: `https://telegra.ph/file/1ccd736159d3566c3895e.jpg` }}}, { quoted: m });
   var js = await fetch(API('lann', '/api/search/bard-ai', { apikey: beta, text: `${text}` }))
 var json = await js.json()
 try {
