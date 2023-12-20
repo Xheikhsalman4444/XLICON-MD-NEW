@@ -1,77 +1,15 @@
 import fetch from 'node-fetch';
 
 let handler = async (m, { text, conn, usedPrefix, command }) => {
-  if (!text && !(m.quoted && m.quoted.text)) {
-    throw `Please provide some text or quote a message to get a response.`;
-  }
+const axios = require('axios')
+let data = await axios.get(`https://flowgpt.com/p/wormgpt-v30/gpt3?prompt=Hello`);
 
-  if (!text && m.quoted && m.quoted.text) {
-    text = m.quoted.text;
-  }
+return data
 
-  try {
-    m.react(rwait)
-    const { key } = await conn.sendMessage(m.chat, {
-      image: { url: 'https://telegra.ph/file/403a47e628ef49dee27a3.jpg' },
-      caption: 'Thinking....'
-    }, {quoted: m})
-    conn.sendPresenceUpdate('composing', m.chat);
-    const prompt = encodeURIComponent(text);
-
-    const Xlicon1 = `${Xliconbot}/chatgpt?text=${prompt}`;
-    
-    try {
-      let response = await fetch(Xlicon1);
-      let data = await response.json();
-      let result = data.result;
-
-      if (!result) {
-        
-        throw new Error('No valid JSON response from the first API');
-      }
-
-      await conn.relayMessage(m.chat, {
-        protocolMessage: {
-          key,
-          type: 14,
-          editedMessage: {
-            imageMessage: { caption: result }
-          }
-        }
-      }, {});
-      m.react(done);
-    } catch (error) {
-      console.error('Error from the first API:', error);
-
-  
-      const model = 'llama';
-      const senderNumber = m.sender.replace(/[^0-9]/g, ''); 
-      const session = `Xlicon_BOT_${senderNumber}`;
-      const Xlicon2 = `https://flowgpt.com/p/wormgpt-v30/gpt3?prompt}`;
-      
-      let response = await fetch(Xlicon2);
-      let data = await response.json();
-      let result = data.completion;
-
-      await conn.relayMessage(m.chat, {
-        protocolMessage: {
-          key,
-          type: 14,
-          editedMessage: {
-            imageMessage: { caption: result }
-          }
-        }
-      }, {});
-      m.react(done);
-    }
-
-  } catch (error) {
-    console.error('Error:', error);
-    throw `*ERROR*`;
-  }
-};
+m();
+}
 handler.help = ['worm']
 handler.tags = ['AI']
-handler.command = ['Ab', 'worm', 'wornai', 'hacker'];
+handler.command = ['AD', 'worm', 'wornai', 'hacker'];
 
 export default handler;
