@@ -23,7 +23,7 @@ mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
 } catch (err) {
-conn.sendMessage(m.chat, { sticker: errorstc, contextInfo: { externalAdReply: { title: 'eror 👻',  thumbnailUrl: rawr2 }}}, { quoted: m });
+conn.sendMessage(m.chat, { quoted: m });
 }}
 handler.command = handler.help = ['bardi','gbard','goobard'];
 handler.tags = ['info'];
