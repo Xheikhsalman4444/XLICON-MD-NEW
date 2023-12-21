@@ -1,5 +1,5 @@
 import { exec } from 'child_process';
-import speed from 'performance-now';
+import now from 'performance-now';
 import cheerio from 'cheerio';
 import fetch from 'node-fetch';
 
@@ -11,11 +11,22 @@ let handler = async (m, {
   command
 }) => {
   try {
+    const start = now();
+    
+    // Your code block here
     await m.reply('https://cataas.com/cat', { caption: "*meyaoooooooooooooon!*" }, "img", m);
+
+    const end = now();
+    const executionTime = (end - start).toFixed(3);
+    
+    console.log(`Execution time: ${executionTime} milliseconds`);
   } catch (e) {
     console.error(`${e}\n\nCommand: cat`);
-    // Handle the error accordingly, e.g., send an error message back to the user.
-    await conn.sendMessage(m.chat, 'An error occurred while processing the command.', 'text', { quoted: m });
+
+    // Check if 'text' is present in the error message
+    const errorMessage = e.toString().includes('text') ? e : 'An error occurred while processing the command.';
+    
+    await conn.sendMessage(m.chat, errorMessage, 'text', { quoted: m });
   }
 };
 
