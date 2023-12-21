@@ -13,7 +13,9 @@ let handler = async (m, {
   try {
     await m.reply('https://cataas.com/cat', { caption: "*meyaoooooooooooooon!*" }, "img", m);
   } catch (e) {
-    m.error(`${e}\n\nCommand: cat`, e, false);
+    console.error(`${e}\n\nCommand: cat`);
+    // Handle the error accordingly, e.g., send an error message back to the user.
+    await conn.sendMessage(m.chat, 'An error occurred while processing the command.', 'text', { quoted: m });
   }
 };
 
