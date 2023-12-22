@@ -7,11 +7,13 @@ const endpoint = 'https://mzn-api.onrender.com/ai/blackbox?prompt=';
 let handler = async (m, { text, conn, usedPrefix, command }) => {
   try {
     if (!text) {
+      await m.reply('❓');
       throw `❓ *Please provide some text to use Blackbox AI*`;
     }
 
     let res = {}
    try{
+    await m.reply('⌛')
     res = await axios.get(`${endpoint}${text}`);
 
    }catch(e){ console.log(e);
@@ -27,6 +29,7 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
   } catch (e) {
     console.error(e);
     m.reply(e);
+    await m.reply('⛔')
   }
 };
 handler.help = ['blackbox']
