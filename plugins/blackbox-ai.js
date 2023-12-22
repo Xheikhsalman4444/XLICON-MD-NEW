@@ -13,7 +13,8 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
 
     let res = {}
    try{
-    await m.reply('⌛')
+    await m.reply('*🕣 _XLICON IS LODIND..._*
+*▰▰▰▱▱▱▱▱⭐*')
     res = await axios.get(`${endpoint}${text}`);
 
    }catch(e){ console.log(e);
@@ -29,7 +30,7 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
   } catch (e) {
     console.error(e);
     m.reply(e);
-    await m.reply('⛔')
+    await m.reply('Were is the text ⛔')
   }
 };
 handler.help = ['blackbox']
