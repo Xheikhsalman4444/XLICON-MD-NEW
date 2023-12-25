@@ -19,7 +19,7 @@ let logos = {
     "thunder":"https://textpro.me/online-thunder-text-effect-generator-1031.html",
     "graphy":"https://textpro.me/3d-rainbow-color-calligraphy-text-effect-1049.html",
     "neon":"https://textpro.me/create-3d-neon-light-text-effect-online-1028.html",
-    "frozen":" https://textpro.me/ice-cold-text-effect-862.html", 
+    "frozen":" https://textpro.me/create-realistic-3d-text-effect-frozen-winter-1099.html", 
 }
 
 
