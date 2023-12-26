@@ -178,10 +178,10 @@ let anu2 = lol2[Math.floor(Math.random() * lol2.length)];
 	
 	let res = await mediafiredl(anu2);
 	let { url, url2, filename, ext, aploud, filesize, filesizeH } = res;
-	conn.sendFile(m.chat, url, filename, "_Jedag Jedug Anime_", m, false, {
+	conn.sendFile(m.chat, url, filename, "_Amv edit Anime click the video to enjoy_", m, false, {
   gifPlayback: true,
   gifAttribution: 2,
-  mentions: conn.parseMention('_Jedag Jedug Anime_')
+  mentions: conn.parseMention('_Amv edit Anime click the video to enjoy_')
 });
 };
 
