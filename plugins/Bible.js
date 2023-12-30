@@ -47,6 +47,6 @@ ${translatedChapterHindi.text}`;
 
 bibleChapterHandler.help = ['bible [chapter_number|chapter_name]'];
 bibleChapterHandler.tags = ['relationship'];
-bibleChapterHandler.command = ['bible', 'chapter''jesus',];
+bibleChapterHandler.command = ['bible', 'chapter','jesus',];
 
 export default bibleChapterHandler;
